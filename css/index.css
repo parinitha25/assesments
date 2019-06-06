@@ -1,0 +1,90 @@
+.fa-cloud{
+	font-size: 32px;
+	color: red;
+	padding-left: 130px;
+	margin-top: 100px;
+}
+h1{
+	text-align: center;
+}
+b{
+	font-size: 35px;
+	padding-left: 10px;
+}
+body{
+	background-color: #cbd1db;
+}
+.btn-info{
+	margin-left: 130px;
+	width: 100px;
+	border-radius: 17px;
+}
+.color{
+	margin-left: 130px;
+	width: 100px;
+	border-radius: 17px;
+	background-color: grey;
+}
+#size{
+	margin-left: 250px;
+	color: #14c6e5;
+}
+#size1{
+	margin-left: 150px;
+	color: white;
+}
+.btn-size1
+{
+	width: 70px;
+	height: 20px;
+	background-color: #969fa5;
+  color: #005b99;
+  margin-left: 20px;
+  font-size: 12px;
+  border-radius: 50px;
+  border:none;
+  margin-bottom:25px;
+  margin-top: 35px;
+  font-weight: bold;
+}
+.length{
+	margin-left: 50px;
+	width: 130px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 18px;
+}
+#align{
+	text-align: center;
+}
+.align1{
+	margin-left: 150px;
+	width: 100px;
+	border-radius: 17px;
+
+}
+.background{
+	background-color: #cbd1db;
+	padding:20px;
+}
+#submit{
+	margin-left: 200px;
+}
+.email{
+	width: 300px;
+	margin-left: 75px;
+}
+.password{
+	width: 300px;
+	margin-left: 75px;
+}
+#demo{
+	color: red;
+}
+#demo1{
+	color: red;
+}
+a{
+	text-decoration: none;
+	color: white;
+}

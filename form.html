@@ -1,0 +1,93 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+    	<title>form</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="./css/form.css">
+    </head>
+    <body>
+      <div class="container">
+      <div class="row">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6">
+        <p id="align">Register as a resident
+        <select id="option">
+    			<option>Resident</option>
+    			<option>Corporate</option>
+    		</select></p><br><br>
+      <form name="forms">
+        <table>
+          <tr>
+            <td>
+              <label id="fname1">Full Name</label>
+              <input type="text" class="large" name="fname" id="ifname">
+              <p class="color" id="pfname"></p>
+            </td>
+            <td>
+              <label id="lname1">Last Name</label>
+              <input type="text" class="large" name="lname" id="ilname">
+              <p class="color" id="plname"></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label id="ename1">Email</label>
+              <input type="text" class="large" name="ename" id="iename">
+              <p class="color" id="pename"></p>
+            </td>
+            <td>
+              <label id="pname1">Phone number</label>
+              <input type="text" class="large" name="pname" id="ipname">
+              <p class="color" id="pname"></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label id="s1name1">Street Address1</label>
+              <input type="text" class="large" name="s1name" id="is1name" placeholder="Street Address1">
+              <p class="color" id="ps1name"></p>
+            </td>
+            <td>
+              <label id="s2name1">Street Address2</label>
+              <input type="text" class="large" name="s2name" id="is2name" placeholder="Street Address2">
+              <p class="color" id="ps2name"></p>
+            </td>
+          </tr> 
+          <tr>
+            <td>
+              <label id="cname1">City</label>
+              <input type="text" class="large" name="cname" id="icname" placeholder="city">
+              <p class="color" id="pcname"></p>
+            </td>
+            <td>
+              <label id="sname1">State</label>
+              <input type="text" class="large" name="sname" id="isname" placeholder="State">
+              <p class="color" id="psname"></p></td>
+            <td>
+              <label id="zname1">zip code</label>
+              <input type="text" class="large" name="zname" id="izname" placeholder="zip code">
+              <p class="color" id="pzname"></p></td>
+          </tr>
+            <td>
+              <label id="crname1">Create password</label>
+              <input type="password" class="large" name="crname" id="icrname">
+              <p class="color" id="pcrname"></p></td>
+            <td>
+              <label id="vname1">Verify Password</label>
+              <input type="password" class="large" name="vname" id="ivname">
+              <p class="color" id="pvname"></p>
+            </td>
+          </tr>
+        </table><br>
+            <button type="button" class="btn btn-info" onclick="signup()">Submit</button>
+      		  <p id="size1">Already have an account?
+    			  <a href="index.html"><input type="button" value="login" class="btn-size1"></a></p>
+      </form>
+    	</div>
+        <div class="col-sm-4"></div>
+    		</div>	
+    	  </div>
+    </body> 
+      <script type="text/javascript" src="./javascript/form.js"></script>
+  </html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/home.css">
+</head>
+<body>
+  <nav>
+  	<a  class="glyphicon glyphicon-home" href="home.html">HOME</a>
+  	<i class="fa fa-cloud length"></i><b>qhub</b>
+  	<i class="fa fa-bell length1" aria-hidden="true"></i>
+  	<a href="index.html" class="length2">Logout</a>	
+  </nav> 
+  <div class="row">
+    <div class="cols-xs-8 col-sm-8 col-md-8 col-lg-8">
+    <div class="row">
+      <div class="cols-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+      <div class="cols-xs-2 col-sm-2 col-md-2 col-lg-2 ">
+        <p id="demo"></p>
+      </div>
+      <div class="cols-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+      <div class="cols-xs-2 col-sm-2 col-md-2 col-lg-2 date">
+        <p>Fri May 31<br>2019<br>12:2:05<br>AM
+      </div>
+      <div class="cols-xs-2 col-sm-2 col-md-2 col-lg-2 date1"><p align="center">TEMP<br>
+        <span class="glyphicon glyphicon-certificate"></span><br>85F</p>
+      </div>
+      <div class="cols-xs-2 col-sm-2 col-md-2 col-lg-2 date2"><p align="center">SIGNAL<br>
+         <i class="fa fa-wifi" aria-hidden="true"></i></p>
+      </div>  
+      </div>
+    </div>
+  <div class="cols-sm-3"></div>
+  </div><br><br>
+  <div class="container">
+    <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-7">
+    <div class="col-sm-12 background event1 event_1 ">
+    <div class="col-sm-1"><p id="text">Fri<br>12<br><b>May</b></p></div>
+    <div class="col-sm-2">
+      <img src="./images/download.jpeg" class="img">
+    </div>
+    <div class="col-sm-7">
+      <p class="paraghaph"><b>The Vibrant Festival Of Colours</b><br><br>
+      A descriptive composition about an event should consist of an introduction in which you set the scene, mentioning the name/type, time, place and reason for celebrating this event; – a main body in which you describe the preparations and the actual event.</p>
+    </div> 
+    <div class="col-sm-2">
+        <text> 10:30-7:30 PM</text>
+    </div>
+    <div class="overlay">
+      <button type="button" class="btn btn-infoe"> <img class="edit_icon" src="./images/edit.png">Edit</button><br>
+      <button class="btn btn-infod hide1 "><img class="edit_icon" src="./images/delete.png">Delet</button>
+      <script>
+        $(document).ready(function(){
+        $(".hide1").click(function(){
+        $(".event_1").hide();
+         });            
+        });
+      </script>
+    </div>
+    </div>
+    <div class="col-sm-12 background event2 event_2">
+    <div class="col-sm-1"><p id="text">
+      Wed</br>14</br><strong>Mar</strong></p>       
+    </div>
+    <div class="col-sm-2">
+       <img src="./images/download4.jpeg" class="img">
+    </div>
+    <div class="col-sm-7">
+       <p class="paraghaph"><b>The Vibrant Festival Of Colours</b><br><br> When you describe annual events (e.g. a carnival/festival which takes place every year) you should use present tenses. However, if the event is related to the past (e.g. the carnival/festival you attended last year), you should use past tenses.</p>
+    </div>
+    <div class="col-sm-2">
+       <text> 10:30-7:30 PM</text>
+    </div>
+    <div class="overlay">
+        <button class="btn btn-infoe"><img class="edit_icon" src="./images/edit.png">Edit</button><br>
+        <button class="btn btn-infod hide2 "><img class="edit_icon" src="./images/delete.png"> Delet</button>
+        <script>
+          $(document).ready(function(){
+          $(".hide2").click(function(){
+          $(".event_2").hide();
+          });            
+          });
+        </script>
+    </div>
+    </div>
+    <div class="col-sm-12 background event3 event_3">
+    <div class="col-sm-1"><p id="text">
+        Wed</br>14</br><strong>Mar</strong></p>      
+    </div>
+    <div class="col-sm-2">
+       <img src="./images/download4.jpeg" class="img">
+    </div>
+    <div class="col-sm-7">
+        <p class="paraghaph"><b>The Vibrant Festival Of Colours</b><br><br> When you describe annual events (e.g. a carnival/festival which takes place every year) you should use present tenses. However, if the event is related to the past (e.g. the carnival/festival you attended last year), you should use past tenses.</p>
+    </div>
+    <div class="col-sm-2">
+        <text> 10:30-7:30 PM</text>
+    </div>
+    <div class="overlay">
+        <button class="btn btn-infoe"><img class="edit_icon" src="./images/edit.png">Edit</button><br>
+        <button class="btn btn-infod hide3 "><img class="edit_icon" src="./images/delete.png"> Delet</button>
+        <script>
+           $(document).ready(function(){
+           $(".hide3").click(function(){
+           $(".event_3").hide();
+            });            
+            });
+        </script>
+    </div>
+    </div>
+    </div>
+     <div class="col-sm-4">
+     <div class="cal">Events Calender<body onload="displayCalendar()"> 
+     <div id="calendar"></div><br>
+       <button type="button" class="btn btn-primary button">+ Create an event</button>
+     </div>
+     </div>
+     </div>
+</body>
+      <script type="text/javascript" src="./javascript/home.js">
+      </script>
+</html>
+  
