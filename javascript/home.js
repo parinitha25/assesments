@@ -14,6 +14,7 @@ else{
 }
 document.getElementById('time').innerHTML=day;
 
+
 function displayCalendar(){ 
  var htmlContent ="";
  var FebNumberOfDays ="";
